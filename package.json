@@ -1,0 +1,56 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Professional portfolio website of Matheus Ramalho - Full Stack Developer and Cybersecurity Enthusiast",
+  "author": "teteu",
+  "homepage": "https://teteu.dev",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/teteudeveloper"
+  },
+  "keywords": [
+    "portfolio",
+    "nextjs",
+    "react",
+    "typescript",
+    "tailwindcss",
+    "fullstack",
+    "cybersecurity"
+  ],
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@formspree/react": "^3.0.0",
+    "@radix-ui/react-label": "^2.1.7",
+    "@radix-ui/react-slot": "^1.2.3",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.525.0",
+    "next": "15.3.5",
+    "next-themes": "^0.4.6",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "tailwind-merge": "^3.3.1",
+    "tailwind-variants": "^1.0.0",
+    "tailwindcss-animate": "^1.0.7"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^9",
+    "eslint-config-next": "15.3.5",
+    "javascript-obfuscator": "^4.1.1",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.3",
+    "typescript": "^5"
+  }
+}
